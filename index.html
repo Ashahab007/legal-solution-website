@@ -505,7 +505,7 @@
         </div>
       </section>
 
-      <!-- FAQ section -->
+      <!-- ! FAQ section -->
       <section class="w-11/12 my-12 mx-auto">
         <!-- title & description -->
         <div class="text-center space-y-8">
@@ -519,10 +519,11 @@
             suffered alteration in some form, by injected humour.
           </p>
         </div>
+
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center space-y-8"
+          class="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center space-y-8 mt-6"
         >
-          <!-- Q&A  -->
+          <!--! Q&A  -->
           <div>
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -571,7 +572,7 @@
         </div>
       </section>
 
-      <!-- Contact section -->
+      <!--! Contact section -->
       <section class="w-11/12 my-12 mx-auto text-center">
         <div>
           <!-- ! title & description -->
@@ -586,7 +587,7 @@
           </p>
         </div>
         <!-- ! contact -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 mt-10 gap-6">
           <!-- contact card -->
           <div class="grid grid-cols-2">
             <!-- ! card 1 -->
@@ -650,15 +651,36 @@
           </div>
 
           <!-- ! contact form -->
-          <form action="">
+          <form action="" class="space-y-4">
             <div>
-              <input class="bg-[#F3F3F3]" type="text" name="" id="" />
+              <input
+                class="bg-[#F3F3F3] w-full h-4 rounded-lg px-4 py-6 border-none"
+                type="text"
+                placeholder="Your Name"
+              />
             </div>
             <div>
-              <input type="text" name="" id="" />
+              <input
+                class="bg-[#F3F3F3] w-full h-4 rounded-lg px-4 py-6 border-none"
+                type="text"
+                placeholder="Your Email"
+              />
             </div>
-            <div></div>
-            <div></div>
+            <div>
+              <input
+                class="bg-[#F3F3F3] w-full h-4 rounded-lg px-4 py-6 border-none"
+                type="text"
+                placeholder="Subject"
+              />
+            </div>
+            <div>
+              <textarea
+                class="bg-[#F3F3F3] w-full resize-none px-4 py-6 rounded-lg"
+                placeholder="Your Message"
+                cols="60"
+                rows="10"
+              ></textarea>
+            </div>
           </form>
         </div>
       </section>
